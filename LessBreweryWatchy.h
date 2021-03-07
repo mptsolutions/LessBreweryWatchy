@@ -1,14 +1,14 @@
-#ifndef LESSBREWERY_H
-#define LESSBREWERY_H
+#ifndef LESSBREWERY_WATCHY_H
+#define LESSBREWERY_WATCHY_H
 
 #include <Watchy.h>
 #include "NoticiaText_BoldItalic9pt7b.h"
 #include "NoticiaText_BoldItalic20pt7b.h"
 #include "NoticiaText_Regular9pt7b.h"
 
-class LessBrewery : public Watchy{
+class LessBreweryWatchy : public Watchy{
     public:
-        LessBrewery();
+        LessBreweryWatchy();
         void drawWatchFace();
 };
 

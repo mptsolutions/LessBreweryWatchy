@@ -1,8 +1,8 @@
-#include "LessBrewery.h"
+#include "LessBreweryWatchy.h"
 
-LessBrewery::LessBrewery(){} 
+LessBreweryWatchy::LessBreweryWatchy(){} 
 
-void LessBrewery::drawWatchFace(){
+void LessBreweryWatchy::drawWatchFace(){
     char time[6];
     time[0] = '0' + ((currentTime.Hour/10)%10);
     time[1] = '0' + (currentTime.Hour%10); 
